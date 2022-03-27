@@ -1,0 +1,15 @@
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.deps.json
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.json
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.dev.json
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\ref\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfoInputs.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfo.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.CoreCompileInputs.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
