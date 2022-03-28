@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace E_Learning.BL.Repositories
@@ -16,7 +15,7 @@ namespace E_Learning.BL.Repositories
     public class FileRepository : IFileInterface
     {
         private readonly ApplicationDbContext _dbContext;
-        private HttpClient httpClient;
+        private HttpClient httpClient = new HttpClient();
 
         public FileRepository(ApplicationDbContext dbContext)
         {
@@ -34,40 +33,46 @@ namespace E_Learning.BL.Repositories
                 multipartContent.Add(byteArrayContent, file.ContentType, file.FileName);
                 var postResponse = await httpClient.PostAsync("files", multipartContent);
                 var json = await postResponse.Content.ReadAsStringAsync();
-                var fileObject = JsonConvert.DeserializeObject<FileModel>(json);
+                var fileObject = JsonConvert.DeserializeObject<List<FileSerializeModel>>(json);
 
-                _dbContext.Files.Add(fileObject);
+                FileModel fileModel = new FileModel()
+                {
+                    Id = fileObject[0].id,
+                    FileName = fileObject[0].file_name,
+                    FileLink = fileObject[0].file,
+                    FileSize = fileObject[0].file_size,
+                    FileType = fileObject[0].file_type,
+                    CourseId = Guid.NewGuid()
+                };
+
+                _dbContext.Files.Add(fileModel);
                 _dbContext.SaveChanges();
 
-                return fileObject;
+                return fileModel;
             }
         }
 
-        public Task<FileModel> GetFile(int id)
-        {
-            var file = _dbContext.Files.FirstOrDefault(f => f.id == id);
-            return Task.FromResult(file);
-        }
+        public Task<FileModel> GetFile(int id) =>
+            Task.FromResult(_dbContext.Files.FirstOrDefault(file => file.Id == id));
 
-        public Task<List<FileModel>> GetFiles(Guid courseId)
-        {
-            var listFiles = _dbContext.Files.ToList();
-            return Task.FromResult(listFiles);
-        }
+        public Task<List<FileModel>> GetFiles(Guid courseId) =>
+            Task.FromResult(_dbContext.Files.Where(file => file.CourseId == courseId).ToList());
 
-        public Task<List<FileModel>> GetFiles()
-        {
-            throw new NotImplementedException();
-        }
+        public Task<List<FileModel>> GetFiles() =>
+            Task.FromResult(_dbContext.Files.ToList());
 
         public void RemoveFile(int id)
         {
-            throw new NotImplementedException();
+            var file = _dbContext.Files.FirstOrDefault(file => file.Id == id);
+            _dbContext.Files.Remove(file);
+            _dbContext.SaveChanges();
         }
 
         public Task<FileModel> UpdateFile(FileModel file)
         {
-            throw new NotImplementedException();
+            _dbContext.Update(file);
+            _dbContext.SaveChanges();
+            return Task.FromResult(file);
         }
     }
 }

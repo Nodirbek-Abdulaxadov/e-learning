@@ -13,3 +13,8 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.B
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\ref\E-Learning.BL.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.genruntimeconfig.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CopyComplete

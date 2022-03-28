@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\E-Learning.BL\E-Learning.BL.csproj" />
     <ProjectReference Include="..\E-Learning.Data\E-Learning.Data.csproj" />
   </ItemGroup>
 

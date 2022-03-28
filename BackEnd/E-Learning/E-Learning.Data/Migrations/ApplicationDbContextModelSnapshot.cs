@@ -47,27 +47,27 @@ namespace E_Learning.Data.Migrations
 
             modelBuilder.Entity("E_Learning.Domain.FileModel", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<Guid?>("CourseId")
+                    b.Property<Guid>("CourseId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("file")
+                    b.Property<string>("FileLink")
                         .HasColumnType("text");
 
-                    b.Property<string>("file_name")
+                    b.Property<string>("FileName")
                         .HasColumnType("text");
 
-                    b.Property<string>("file_size")
+                    b.Property<string>("FileSize")
                         .HasColumnType("text");
 
-                    b.Property<string>("file_type")
+                    b.Property<string>("FileType")
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("CourseId");
 
@@ -120,7 +120,9 @@ namespace E_Learning.Data.Migrations
                 {
                     b.HasOne("E_Learning.Domain.Course", null)
                         .WithMany("Sources")
-                        .HasForeignKey("CourseId");
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("E_Learning.Domain.Course", b =>

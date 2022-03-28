@@ -50,3 +50,9 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Lear
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\ref\E-Learning.Learning.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.genruntimeconfig.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.pdb
