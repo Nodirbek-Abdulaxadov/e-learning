@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "acbc8e99-7c11-483c-ac8b-671898c5734d": {
+      "ProjectGuid": "acbc8e99-7c11-483c-ac8b-671898c5734d",
+      "DisplayName": "E-Learning.Learning",
+      "ColorIndex": 0
+    },
+    "725a6abb-e81e-41bd-aa90-9e4283b923d4": {
+      "ProjectGuid": "725a6abb-e81e-41bd-aa90-9e4283b923d4",
+      "DisplayName": "E-Learning.Domain",
+      "ColorIndex": 1
+    },
+    "060fb6df-f341-407a-bc2e-b20ff3c9b9e2": {
+      "ProjectGuid": "060fb6df-f341-407a-bc2e-b20ff3c9b9e2",
+      "DisplayName": "E-Learning.Data",
+      "ColorIndex": 2
+    },
+    "74e9141a-f22c-4573-a711-0a07ecaeceb1": {
+      "ProjectGuid": "74e9141a-f22c-4573-a711-0a07ecaeceb1",
+      "DisplayName": "E-Learning.BL",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
