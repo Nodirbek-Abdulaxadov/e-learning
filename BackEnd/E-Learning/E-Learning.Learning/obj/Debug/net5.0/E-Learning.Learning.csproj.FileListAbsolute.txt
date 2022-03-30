@@ -56,3 +56,5 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Newton
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\System.IO.Pipelines.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Courses.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Themes.cshtml.g.cs
