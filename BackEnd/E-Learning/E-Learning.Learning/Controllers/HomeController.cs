@@ -32,5 +32,9 @@ namespace E_Learning.Learning.Controllers
         {
             return View();
         }
+        public IActionResult Themes()
+        {
+            return View();
+        }
     }
 }

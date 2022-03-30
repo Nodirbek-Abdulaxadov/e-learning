@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.BL", "E-Learning
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.API", "E-Learning.API\E-Learning.API.csproj", "{13866A16-6D84-4791-A45E-AF51D2C1B009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Learning.Admin", "E-Learning.Admin\E-Learning.Admin.csproj", "{E99AA18B-C918-4602-8BA4-0DF58C279504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.Admin", "E-Learning.Admin\E-Learning.Admin.csproj", "{E99AA18B-C918-4602-8BA4-0DF58C279504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Learning.ViewModel", "E-Learning.ViewModel\E-Learning.ViewModel.csproj", "{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E99AA18B-C918-4602-8BA4-0DF58C279504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E99AA18B-C918-4602-8BA4-0DF58C279504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E99AA18B-C918-4602-8BA4-0DF58C279504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.deps.json
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.dll
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\ref\E-Learning.ViewModel.dll
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.pdb
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.Domain.dll
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.Domain.pdb
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.AssemblyReference.cache
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.AssemblyInfoInputs.cache
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.AssemblyInfo.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.CoreCompileInputs.cache
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.CopyComplete
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.dll
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\ref\E-Learning.ViewModel.dll
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.pdb
