@@ -30,7 +30,12 @@
       "ProjectGuid": "13866a16-6d84-4791-a45e-af51d2c1b009",
       "DisplayName": "E-Learning.API",
       "ColorIndex": 4
+    },
+    "e99aa18b-c918-4602-8ba4-0df58c279504": {
+      "ProjectGuid": "e99aa18b-c918-4602-8ba4-0df58c279504",
+      "DisplayName": "E-Learning.Admin",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
