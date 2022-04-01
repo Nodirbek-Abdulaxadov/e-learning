@@ -36,10 +36,7 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Lear
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.TagHelpers.output.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorCoreGenerate.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorTargetAssemblyInfo.cache

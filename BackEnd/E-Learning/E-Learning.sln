@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.API", "E-Learnin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.Admin", "E-Learning.Admin\E-Learning.Admin.csproj", "{E99AA18B-C918-4602-8BA4-0DF58C279504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Learning.ViewModel", "E-Learning.ViewModel\E-Learning.ViewModel.csproj", "{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.ViewModel", "E-Learning.ViewModel\E-Learning.ViewModel.csproj", "{0066BE20-F252-4F98-B260-D2DDCA5E7F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

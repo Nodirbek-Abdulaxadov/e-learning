@@ -35,7 +35,12 @@
       "ProjectGuid": "e99aa18b-c918-4602-8ba4-0df58c279504",
       "DisplayName": "E-Learning.Admin",
       "ColorIndex": 5
+    },
+    "36471bf2-2134-4bca-a89c-ee3472146254": {
+      "ProjectGuid": "36471bf2-2134-4bca-a89c-ee3472146254",
+      "DisplayName": "E-Learning.Web",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

@@ -1,18 +1,20 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Kurs Page";
 }
 
-<div>
-    <div class="card p-4">
+<div style="margin-top: -3rem;">
+    <div class="p-4">
         <div class="card-body">
-            <a asp-controller="home" asp-action="index" class="btn btn-outline-primary" style="font-size: 14px;">
-                <i class='bx bx-arrow-back' style="font-size: 14px;"></i> Orqaga qaytish
-            </a>
-            <h1 class="card-title" style="padding: 2rem 1rem 0 1rem;">1-dars. Wordga kirish</h1>
+            <div class="d-flex justify-content-between">
+                <a asp-controller="home" asp-action="index" class="btn btn-outline-primary" style="font-size: 14px; padding: 1rem 1.5rem 0rem 1.5rem;">
+                <i class='bx bx-arrow-back' style="font-size: 14px;"></i> Orqaga</a>
+            <h2 style="text-align: center;">1-dars. Wordga kirish</h2>
+            <div></div>
+            </div>
             <hr class="line-clamp-3"/>
 
             <div class="d-flex justify-content-center">
-                <iframe class="py-3" width="727" height="509" src="https://www.youtube.com/embed/-7ovghuxSvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="py-3" width="527" height="309" src="https://www.youtube.com/embed/-7ovghuxSvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="card shadow-sm my-3">
