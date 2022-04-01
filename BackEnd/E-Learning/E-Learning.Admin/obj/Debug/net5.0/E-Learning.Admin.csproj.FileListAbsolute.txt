@@ -90,7 +90,6 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-L
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Domain.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.ViewModel.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Data.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\AddCourse.cshtml.g.cs
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -114,3 +113,10 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learnin
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\AddCourse.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Index.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\Add.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\Edit.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Add.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Edit.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Add.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Edit.cshtml.g.cs
+D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Index.cshtml.g.cs

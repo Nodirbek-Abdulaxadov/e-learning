@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Edit Section Page";
+    Layout = "_Layout";
+}
+@model EditSectionViewModel
+
+            <div class="box-header position-relative table-header pt-4">
+                <div class="d-flex justify-content-between mt-3 com-header">
+                    <h3>Edit Saction data</h3>
+                </div>
+            </div>
+            <form asp-controller="section" asp-action="edit" enctype="multipart/form-data">
+                <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" type="text" class="form-control" id="title" value="@Model.Name">
+                </div>
+                    <div class="button-group text-center my-5">
+                    <button type="submit" class="btn btn-success me-5" style=" width:200px; " >
+                        Save
+                    </button>
+                    <a asp-controller="section" asp-action="index">
+                        <span class="btn btn-info"  style=" width:200px;">Cancel</span>
+                    </a>
+                </div>
+            </form>

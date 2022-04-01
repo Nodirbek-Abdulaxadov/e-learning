@@ -2,80 +2,72 @@
     ViewData["Title"] = "Course Page";
     Layout = "_Layout";
 }
-<div>
-    <div class="card p-4">
-        <div class="card-body">
-            <a asp-controller="home" asp-action="index" class="btn btn-outline-primary" style="font-size: 14px;">
-                <i class='bx bx-arrow-back' style="font-size: 14px;"></i> Orqaga qaytish
-            </a>
-            <h1 class="card-title" style="padding: 2rem 1rem 0 1rem;">1-dars. Wordga kirish</h1>
-            <hr class="line-clamp-3"/>
 
-            <div class="d-flex justify-content-center">
-                <iframe class="py-3" width="727" height="509" src="https://www.youtube.com/embed/-7ovghuxSvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="card shadow-sm my-3">
-                <div class="card-body">
-                      <h5 class="card-title">ЖУМА КУНИ БОМДОД НАМОЗИДАН ОЛДИН ЎҚИЛАДИГАН ДУОНИ БИЛАСИЗМИ?</h5>
-                      <p class="card-text p-3">
-                        أَسْتَغْفِرُ اللهَ الَّذِي لاَ إلَهَ إلاَّ هُوَ الحَيُّ القَيُومُ وَأتُوبُ إلَيهِ
-                        “Астағфируллоҳаллазий лаа илаҳа илла Ҳувал Ҳаййул Қаййум ва атубу илайҳи”.
-
-                        Маъноси: “Ўзидан бошқа илоҳ бўлмаган, тирик ва қоим бўлган буюк Аллоҳга истиғфор айтаман. Унга тавба қиламан”.
-
-                        Расулуллоҳ соллаллоҳу алайҳи васаллам бу истиғфор ҳақида бундай деганлар:
-                        “Ким жума тонгида бомдод намозидан аввал уч марта ушбу дуони ўқиса, денгизнинг кўпиги қадар
-                        гуноҳи бўлса ҳам, Аллоҳ уни афв этади” (Имом Абу Довуд ривояти).
-
-                        © Ўзбекистон мусулмонлари идораси Матбуот хизмати
-
-                        Биз билан бирга бўлинг:
-                    </p>
-                </div>
-            </div>
-
-            <h2 class="card-title" style="padding: 3rem 1rem 0 2rem;">Manbalar</h2>
-            <hr class="line-clamp-3"/>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card shadow-sm my-3">
-                        <div class="d-flex g-0">
-                            <div class="col-md-4">
-                                <img class="card-img-left" width="150" src="~/Learning/assets/img/elements/12.jpg" alt="Card image">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                  <h5 class="card-title">Additonal source</h5>
-                                  <p class="card-text">
-                                    This.docx
-                                  </p>
-                                  <p class="card-text"><small class="text-muted">256 kb</small></p>
-                                </div>          
-                            </div>
-                        </div>
+<div class="row blok mt-5">
+        <div class="col-xs-11">
+            <div class="box data-table">
+                <div class="box-header position-relative table-header mt-2">
+                    <div class="d-flex justify-content-between mt-3 mx-4 com-header">
+                        <h3>Kurslar</h3>
+                        <a asp-controller="course" asp-action="addcourses">
+                            <span class="btn btn-success"><i class="las la-plus"></i>Add Course</span>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card shadow-sm my-3">
-                        <div class="d-flex g-0">
-                            <div class="col-md-4">
-                                <img class="card-img-left" width="150" src="~/Learning/assets/img/elements/12.jpg" alt="Card image">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">Additonal source</h5>
-                                    <p class="card-text">
-                                    This.docx
-                                    </p>
-                                    <p class="card-text"><small class="text-muted">256 kb</small></p>
-                                </div>          
-                            </div>
-                        </div>
-                    </div>
+                <div class="jadval box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Sarlavha</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Image</th>
+                            <th>Duration</th>
+                            <th>Description</th>
+                            <th style="text-align:center;">Action</th>
+                        </tr>
+                    @foreach(var item in Model)
+                    {
+                     <tr>
+                            <td>@item.Title</td>
+                            <td>@item.Name</td>
+                            <td>@item.Price</td>
+                            @{
+                                string imageSource = @item.Image;
+                                if (!imageSource.Contains("http"))
+                                {
+                                    imageSource = "~/images/" + imageSource;
+                                }
+                                else if  (imageSource.Contains("ilyosbek"))
+                                {
+                                    string[] vs = imageSource.Split(new string[] {"https://ilyosbek.uz/rtm/images/"}, StringSplitOptions.None);
+                                    imageSource = "~/images/" + vs[1];
+                                }
+                            }
+                            <td><img src="@imageSource" asp-append-version="true" style="width: 50px;"/></td>
+                            <td>@item.Duration</td>
+                            <td>
+                                @{
+                                    string text = item.Description;
+                                    if (text.Length > 15)
+                                    {
+                                       text = item.Description.Substring(0, 15);
+                                    }
+                                }
+                                @text...
+                            </td>
+                            
+                            <td class="cell">
+                                <a asp-controller="course" asp-action="edit" asp-route-id="@item.Id">
+                                    <span class="btn btn-success">Tahrirlash</span>
+                                </a>
+                                 <a asp-controller="course" asp-action="delete" asp-route-id="@item.Id"
+                                    onclick="return confirm('Rostdan ham o\'chirmoqchisiz?');" class="btn btn-danger">O'chirish
+                                </a>                      
+                            </td>
+                    </tr>   
+                    }
+                    </table>
                 </div>
             </div>
         </div>
     </div>
-</div>
