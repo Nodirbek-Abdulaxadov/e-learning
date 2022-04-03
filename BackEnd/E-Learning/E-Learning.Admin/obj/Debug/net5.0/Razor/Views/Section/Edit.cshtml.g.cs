@@ -33,8 +33,22 @@ using E_Learning.ViewModel.ViewSection;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewTheme;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewCourse;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9a617ccb4840345f604cc066937fb9d8f2166e86", @"/Views/Section/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa5a480c168d8161a359fe32ff85d03011d480e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42388cc5d9bb42562b050ad9a81504d6b5a55ebe", @"/Views/_ViewImports.cshtml")]
     public class Views_Section_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<EditSectionViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "text", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -88,9 +102,9 @@ using E_Learning.ViewModel.ViewSection;
                 </div>
             </div>
             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e866580", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e866979", async() => {
                 WriteLiteral("\r\n                <div class=\"form-group mx-4\" style=\"padding: 10px; font-size: 18px;\">\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e866951", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e867350", async() => {
                     WriteLiteral("Name");
                 }
                 );
@@ -112,7 +126,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9a617ccb4840345f604cc066937fb9d8f2166e868503", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9a617ccb4840345f604cc066937fb9d8f2166e868902", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -154,7 +168,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                         Save
                     </button>
                     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e8611376", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a617ccb4840345f604cc066937fb9d8f2166e8611775", async() => {
                     WriteLiteral("\r\n                        <span class=\"btn btn-info\"  style=\" width:200px;\">Cancel</span>\r\n                    ");
                 }
                 );

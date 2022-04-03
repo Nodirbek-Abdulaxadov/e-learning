@@ -33,8 +33,22 @@ using E_Learning.ViewModel.ViewSection;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewTheme;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewCourse;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9455c64c3eb1971d35e7427fbc7c6dc2cabe86c1", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa5a480c168d8161a359fe32ff85d03011d480e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42388cc5d9bb42562b050ad9a81504d6b5a55ebe", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

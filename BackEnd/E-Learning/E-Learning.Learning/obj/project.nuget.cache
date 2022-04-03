@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VdkEvOL71Jivnivx09C3fAPkTxyqB7rKb1Khs/5RTAc+42wnTnmXAbJz4H6G67Zo8lVlQSfsVZN2fTdQfoeYRA==",
+  "dgSpecHash": "ny7RZydHuejWYIDnFld/cA7wWQ7JPfDPT23g+Bceq6m0PrBxngYU4B8owxq9/HRZfIqnERcdboNgHMuXIG8O0g==",
   "success": true,
   "projectFilePath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Learning\\E-Learning.Learning.csproj",
   "expectedPackageFiles": [
@@ -31,12 +31,5 @@
     "C:\\Users\\Nodirbek\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Nodirbek\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Learning\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

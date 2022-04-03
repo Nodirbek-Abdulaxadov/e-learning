@@ -33,8 +33,22 @@ using E_Learning.ViewModel.ViewSection;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewTheme;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewCourse;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8976ee806691153d5a29335ac66e0618bea694c", @"/Views/Theme/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa5a480c168d8161a359fe32ff85d03011d480e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42388cc5d9bb42562b050ad9a81504d6b5a55ebe", @"/Views/_ViewImports.cshtml")]
     public class Views_Theme_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

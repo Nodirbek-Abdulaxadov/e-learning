@@ -33,8 +33,22 @@ using E_Learning.ViewModel.ViewSection;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewTheme;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewCourse;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0da6eca8e930bd051351f2cfca9a2117d730b3db", @"/Views/Theme/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa5a480c168d8161a359fe32ff85d03011d480e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42388cc5d9bb42562b050ad9a81504d6b5a55ebe", @"/Views/_ViewImports.cshtml")]
     public class Views_Theme_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Theme>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "theme", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -83,7 +97,7 @@ using E_Learning.ViewModel.ViewSection;
                     <div class=""d-flex justify-content-between mt-3 mx-4 com-header"">
                         <h3>Themes</h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db5797", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db6196", async() => {
                 WriteLiteral("\r\n                            <span class=\"btn btn-success\"><i class=\"las la-plus\"></i>Add new theme</span>\r\n                        ");
             }
             );
@@ -128,7 +142,7 @@ using E_Learning.ViewModel.ViewSection;
 #nullable disable
             WriteLiteral("</td>\r\n\r\n");
             WriteLiteral("\r\n                            <td class=\"cell\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db8348", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db8747", async() => {
                 WriteLiteral("\r\n                                    <span class=\"btn btn-success\">Edit</span>\r\n                                ");
             }
             );
@@ -161,7 +175,7 @@ using E_Learning.ViewModel.ViewSection;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db10887", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0da6eca8e930bd051351f2cfca9a2117d730b3db11286", async() => {
                 WriteLiteral("Delete\r\n                                ");
             }
             );

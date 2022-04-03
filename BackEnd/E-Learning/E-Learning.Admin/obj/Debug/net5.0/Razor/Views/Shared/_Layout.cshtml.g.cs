@@ -33,8 +33,22 @@ using E_Learning.ViewModel.ViewSection;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewTheme;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\_ViewImports.cshtml"
+using E_Learning.ViewModel.ViewCourse;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b88cf1df18d0d159b0d9270d8f722b2c0148c01", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa5a480c168d8161a359fe32ff85d03011d480e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42388cc5d9bb42562b050ad9a81504d6b5a55ebe", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -80,7 +94,7 @@ using E_Learning.ViewModel.ViewSection;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c018562", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c018961", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
 #line 6 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\Views\Shared\_Layout.cshtml"
@@ -90,7 +104,7 @@ using E_Learning.ViewModel.ViewSection;
 #line hidden
 #nullable disable
                 WriteLiteral(" - E_Learning.Learning</title>\r\n    \r\n    <link rel=\"stylesheet\"href=\"https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css\" />\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c019370", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c019769", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -105,7 +119,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0110548", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0110947", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -120,7 +134,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0111727", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0112126", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -135,7 +149,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0112906", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0113305", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,7 +176,7 @@ using E_Learning.ViewModel.ViewSection;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0115057", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0115456", async() => {
                 WriteLiteral(@"
 <header>
     <div class=""sidebar"">
@@ -174,7 +188,7 @@ using E_Learning.ViewModel.ViewSection;
             <ul>
                 <li>
                     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0115592", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0115991", async() => {
                     WriteLiteral("<span class=\"las la-home\"></span>\r\n                        <span>Home</span>");
                 }
                 );
@@ -192,7 +206,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                </li>\r\n                <li>\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0117169", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0117568", async() => {
                     WriteLiteral("<span class=\"las la-bullhorn\"></span>\r\n                        <span>Chapters</span>");
                 }
                 );
@@ -210,7 +224,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                </li>\r\n                <li>\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0118754", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0119153", async() => {
                     WriteLiteral("<span class=\"las la-bullhorn\"></span>\r\n                        <span>Sections</span>");
                 }
                 );
@@ -228,7 +242,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                </li>\r\n                <li>\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0120339", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0120738", async() => {
                     WriteLiteral("<span class=\"las la-award\"></span>\r\n                        <span>Themes</span>");
                 }
                 );
@@ -246,7 +260,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                </li>\r\n                <li>\r\n                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0121919", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0122318", async() => {
                     WriteLiteral("<span class=\"las la-server\"></span>\r\n                        <span>Courses</span>");
                 }
                 );
@@ -273,7 +287,7 @@ using E_Learning.ViewModel.ViewSection;
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n        </main>\r\n        <!--Main end-->\r\n\r\n    <footer>\r\n    </footer>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0123975", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0124374", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -287,7 +301,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0125076", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0125475", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -301,7 +315,7 @@ using E_Learning.ViewModel.ViewSection;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0126177", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b88cf1df18d0d159b0d9270d8f722b2c0148c0126576", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
