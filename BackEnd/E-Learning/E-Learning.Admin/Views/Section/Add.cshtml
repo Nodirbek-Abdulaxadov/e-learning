@@ -11,14 +11,24 @@
     </div>
     <form class="mx-4" asp-controller="section" asp-action="add" enctype="multipart/form-data" method="post">
         <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
-            <label asp-for="Name">Section Name</label>
-            <input asp-for="Name" type="text" class="form-control" id="title" placeholder="Section Name">
+            <label asp-for="Section.Name">Section Name</label>
+            <input asp-for="Section.Name" type="text" class="form-control" id="title" placeholder="Section Name">
         </div>
+         <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
+            <label asp-for="Section.ChapterId">Chapter for</label>
+            <select asp-for="Section.ChapterId" class="form-control">
+                @foreach (var item in Model.Chapters)
+               {
+                   <option value="@item.Id">@item.Name</option>
+               }
+            </select>
+        </div>
+
         <div class="button-group text-center my-5">
             <button type="submit" class="btn btn-success me-5" style=" width:200px; " >
                 Save
             </button>
-            <a asp-controller="course" asp-action="index">
+            <a asp-controller="home" asp-action="index">
                 <span class="btn btn-info"  style=" width:200px;">Cancel</span>
             </a>
          </div>

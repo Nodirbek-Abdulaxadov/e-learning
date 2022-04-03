@@ -10,10 +10,13 @@ namespace E_Learning.Admin.Controllers
     public class SectionController : Controller
     {
         private readonly ISectionInterface _sectionInterface;
+        private readonly IChapterInterface _chapterInterface;
 
-        public SectionController(ISectionInterface sectionInterface)
+        public SectionController(ISectionInterface sectionInterface,
+                                 IChapterInterface chapterInterface)
         {
             _sectionInterface = sectionInterface;
+            _chapterInterface = chapterInterface;
         }
         public async Task<IActionResult> Index()
         {
@@ -21,20 +24,21 @@ namespace E_Learning.Admin.Controllers
             return View(item);
         }
         [HttpGet]
-        public IActionResult Add()
+        public async Task<IActionResult> Add()
         {
-            return View();
+            AddSectionViewModel viewModel = new AddSectionViewModel()
+            {
+                Chapters = await _chapterInterface.GetChapters()
+            };
+
+            return View(viewModel);
         }
         [HttpPost]
         public async Task<IActionResult> Add(AddSectionViewModel viewModel)
         {
-            Section section = new Section()
-            {
-                Id = Guid.NewGuid(),
-                Name = viewModel.Name
-            };
+            viewModel.Section.Id = Guid.NewGuid();
+            await _sectionInterface.AddSection(viewModel.Section);
 
-            await _sectionInterface.AddSection(section);
             return RedirectToAction("Index");
         }
         [HttpGet]

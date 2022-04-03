@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add Section Page";
+}
+@model Chapter
+
+   <div class="box-header position-relative table-header mt-2">
+        <div class="d-flex justify-content-between mt-3 com-header">
+            <h3>Add new Chapter</h3>
+        </div>
+    </div>
+    <form class="mx-4" asp-controller="chapter" asp-action="add" enctype="multipart/form-data" method="post">
+        <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
+            <label asp-for="Name">Chapter Name</label>
+            <input asp-for="Name" type="text" class="form-control" id="title" placeholder="Enter chapter name ...">
+        </div>
+        <div class="button-group text-center my-5">
+            <button type="submit" class="btn btn-success me-5" style=" width:200px; " >
+                Save
+            </button>
+            <a asp-controller="chapter" asp-action="index">
+                <span class="btn btn-info"  style=" width:200px;">Cancel</span>
+            </a>
+         </div>
+    </form>

@@ -1,16 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Theme Page";
+    ViewData["Title"] = "Chapter Page";
     Layout = "_Layout";
 }
-@model List<Theme>
+@model List<Chapter>
   <div class="row blok mt-5">
         <div class="col-xs-11">
             <div class="box data-table">
                 <div class="box-header position-relative table-header mt-2">
                     <div class="d-flex justify-content-between mt-3 mx-4 com-header">
-                        <h3>Themes</h3>
-                        <a asp-controller="theme" asp-action="add">
-                            <span class="btn btn-success"><i class="las la-plus"></i>Add new theme</span>
+                        <h3>Section</h3>
+                        <a asp-controller="chapter" asp-action="add">
+                            <span class="btn btn-success"><i class="las la-plus"></i>Add Section</span>
                         </a>
                     </div>
                 </div>
@@ -28,10 +28,10 @@
                             @*Action Button*@ 
 
                             <td class="cell">
-                                <a asp-controller="theme" asp-action="edit" asp-route-id="@item.Id">
+                                <a asp-controller="section" asp-action="edit" asp-route-id="@item.Id">
                                     <span class="btn btn-success">Edit</span>
                                 </a>
-                                 <a asp-controller="theme" asp-action="delete" asp-route-id="@item.Id"
+                                 <a asp-controller="section" asp-action="delete" asp-route-id="@item.Id"
                                     onclick="return confirm('Rostdan ham o\'chirmoqchisiz?');" class="btn btn-danger">Delete
                                 </a>                      
                             </td>

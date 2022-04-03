@@ -26,7 +26,7 @@ namespace E_Learning.Learning.Controllers
         {
             IndexViewModel viewModel = new IndexViewModel()
             {
-                Chapters = await _chapterInterFace.GetChapters()
+                Chapters = await _chapterInterFace.GetChaptersWithSections()
             };
 
             return View(viewModel);
