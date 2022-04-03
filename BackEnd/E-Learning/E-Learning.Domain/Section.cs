@@ -11,6 +11,7 @@ namespace E_Learning.Domain
         public Guid Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public Guid ChapterId { get; set; }
         List<Theme> Themes { get; set; }
     }
 }

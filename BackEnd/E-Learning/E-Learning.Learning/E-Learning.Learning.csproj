@@ -21,6 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\E-Learning.BL\E-Learning.BL.csproj" />
     <ProjectReference Include="..\E-Learning.Data\E-Learning.Data.csproj" />
+    <ProjectReference Include="..\E-Learning.Domain\E-Learning.Domain.csproj" />
+    <ProjectReference Include="..\E-Learning.ViewModel\E-Learning.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

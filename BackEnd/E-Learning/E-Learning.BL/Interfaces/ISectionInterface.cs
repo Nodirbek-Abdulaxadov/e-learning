@@ -7,6 +7,7 @@ namespace E_Learning.BL.Interfaces
 {
     public interface ISectionInterface
     {
+        Task<List<Section>> GetSections(Guid chapterId);
         Task<List<Section>> GetSections();
         Task<Section> GetSection(Guid id);
         Task<Section> AddSection(Section section);

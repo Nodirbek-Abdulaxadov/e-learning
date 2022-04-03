@@ -19,6 +19,21 @@ namespace E_Learning.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.15")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+            modelBuilder.Entity("E_Learning.Domain.Chapter", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Chapters");
+                });
+
             modelBuilder.Entity("E_Learning.Domain.Course", b =>
                 {
                     b.Property<Guid>("Id")
@@ -78,6 +93,9 @@ namespace E_Learning.Data.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("ChapterId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")

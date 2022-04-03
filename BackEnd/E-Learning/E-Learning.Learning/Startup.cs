@@ -23,7 +23,10 @@ namespace E_Learning.Learning
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
+            services.AddTransient<IChapterInterface, ChapterRepository>();
+            services.AddTransient<ISectionInterface, SectionRepository>();
+            services.AddTransient<IThemeInterface, ThemeRepository>();
+            services.AddTransient<ICourseInterface, CourseRepository>();
             services.AddTransient<IFileInterface, FileRepository>();
 
             services.AddDbContext<ApplicationDbContext>(options =>

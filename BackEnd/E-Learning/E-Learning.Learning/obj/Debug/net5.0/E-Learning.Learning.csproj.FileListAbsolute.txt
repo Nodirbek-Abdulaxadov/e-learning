@@ -112,3 +112,5 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\ref\E-Learning.Learning.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.genruntimeconfig.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.pdb

@@ -30,6 +30,9 @@ namespace E_Learning.BL.Repositories
         public Task<List<Section>> GetSections() =>
             Task.FromResult(_dbContext.Sections.ToList());
 
+        public Task<List<Section>> GetSections(Guid chapterId) =>
+            Task.FromResult(_dbContext.Sections.Where(ch => ch.Id == chapterId).ToList());
+
         public void RemoveSection(Guid id)
         {
             var section = _dbContext.Sections.FirstOrDefault(s => s.Id == id);

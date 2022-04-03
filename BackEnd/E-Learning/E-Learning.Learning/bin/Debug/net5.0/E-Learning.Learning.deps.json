@@ -35,6 +35,8 @@
         "dependencies": {
           "E-Learning.BL": "1.0.0",
           "E-Learning.Data": "1.0.0",
+          "E-Learning.Domain": "1.0.0",
+          "E-Learning.ViewModel": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.Design": "5.0.15",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.15",
@@ -581,6 +583,18 @@
         },
         "compile": {
           "E-Learning.Domain.dll": {}
+        }
+      },
+      "E-Learning.ViewModel/1.0.0": {
+        "dependencies": {
+          "E-Learning.Domain": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
+        },
+        "runtime": {
+          "E-Learning.ViewModel.dll": {}
+        },
+        "compile": {
+          "E-Learning.ViewModel.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2452,6 +2466,11 @@
       "sha512": ""
     },
     "E-Learning.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "E-Learning.ViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
