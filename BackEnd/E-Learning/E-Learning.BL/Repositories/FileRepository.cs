@@ -24,32 +24,36 @@ namespace E_Learning.BL.Repositories
 
         public async Task<FileModel> AddFile(IFormFile file)
         {
-            httpClient.BaseAddress = new Uri("https://filecloud.pythonanywhere.com/api/");
-            using (var ms = new MemoryStream())
+            if (file is not null)
             {
-                file.CopyTo(ms);
-                var byteArrayContent = new ByteArrayContent(ms.ToArray());
-                var multipartContent = new MultipartFormDataContent();
-                multipartContent.Add(byteArrayContent, file.ContentType, file.FileName);
-                var postResponse = await httpClient.PostAsync("files", multipartContent);
-                var json = await postResponse.Content.ReadAsStringAsync();
-                var fileObject = JsonConvert.DeserializeObject<List<FileSerializeModel>>(json);
-
-                FileModel fileModel = new FileModel()
+                httpClient.BaseAddress = new Uri("https://filecloud.pythonanywhere.com/api/");
+                using (var ms = new MemoryStream())
                 {
-                    Id = fileObject[0].id,
-                    FileName = fileObject[0].file_name,
-                    FileLink = fileObject[0].file,
-                    FileSize = fileObject[0].file_size,
-                    FileType = fileObject[0].file_type,
-                    CourseId = Guid.NewGuid()
-                };
+                    file.CopyTo(ms);
+                    var byteArrayContent = new ByteArrayContent(ms.ToArray());
+                    var multipartContent = new MultipartFormDataContent();
+                    multipartContent.Add(byteArrayContent, file.ContentType, file.FileName);
+                    var postResponse = await httpClient.PostAsync("files", multipartContent);
+                    var json = await postResponse.Content.ReadAsStringAsync();
+                    var fileObject = JsonConvert.DeserializeObject<List<FileSerializeModel>>(json);
 
-                _dbContext.Files.Add(fileModel);
-                _dbContext.SaveChanges();
+                    FileModel fileModel = new FileModel()
+                    {
+                        Id = fileObject[0].id,
+                        FileName = fileObject[0].file_name,
+                        FileLink = fileObject[0].file,
+                        FileSize = fileObject[0].file_size,
+                        FileType = fileObject[0].file_type,
+                        CourseId = Guid.NewGuid()
+                    };
 
-                return fileModel;
+                    _dbContext.Files.Add(fileModel);
+                    _dbContext.SaveChanges();
+
+                    return fileModel;
+                }
             }
+            return null;
         }
 
         public Task<FileModel> GetFile(int id) =>

@@ -8,6 +8,7 @@ namespace E_Learning.ViewModel.ViewCourse
     {
         public Course Course { get; set; }
         public List<Theme> Themes { get; set; }
-        public IFormFile File1 { get; set; }
+        public List<IFormFile> Files { get; set; }
+        
     }
 }

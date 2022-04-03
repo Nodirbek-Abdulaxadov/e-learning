@@ -2,7 +2,6 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learni
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.dev.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.dll
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\ref\E-Learning.Domain.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,3 +27,4 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\ref\E-Learning.Domain.dll

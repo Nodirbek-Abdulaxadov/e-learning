@@ -45,7 +45,12 @@
       "ProjectGuid": "88f6e824-3a62-4d85-ae93-fccc075a9102",
       "DisplayName": "E-Learning.Web",
       "ColorIndex": 7
+    },
+    "0066be20-f252-4f98-b260-d2ddca5e7f5f": {
+      "ProjectGuid": "0066be20-f252-4f98-b260-d2ddca5e7f5f",
+      "DisplayName": "E-Learning.ViewModel",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

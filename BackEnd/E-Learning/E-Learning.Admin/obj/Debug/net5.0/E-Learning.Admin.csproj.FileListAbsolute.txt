@@ -5,7 +5,6 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learnin
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.runtimeconfig.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.runtimeconfig.dev.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.dll
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\ref\E-Learning.Admin.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.Views.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\E-Learning.Admin.Views.pdb
@@ -128,3 +127,4 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Vie
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Chapter\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Chapter\Add.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\refint\E-Learning.Admin.dll
