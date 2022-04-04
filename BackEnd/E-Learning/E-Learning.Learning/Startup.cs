@@ -25,9 +25,8 @@ namespace E_Learning.Learning
             services.AddControllersWithViews();
             services.AddTransient<IChapterInterface, ChapterRepository>();
             services.AddTransient<ISectionInterface, SectionRepository>();
-            services.AddTransient<IThemeInterface, ThemeRepository>();
             services.AddTransient<ICourseInterface, CourseRepository>();
-            services.AddTransient<IFileInterface, FileRepository>();
+            services.AddTransient<IFileInterface, FileRepo>();
 
             services.AddDbContext<ApplicationDbContext>(options =>
                     options.UseNpgsql(Configuration.GetConnectionString("PostgreDB")));

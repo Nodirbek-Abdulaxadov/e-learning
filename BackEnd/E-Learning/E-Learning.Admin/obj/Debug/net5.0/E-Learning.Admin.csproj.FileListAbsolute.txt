@@ -122,9 +122,6 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Vie
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Course\Edit.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Add.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Section\Edit.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Add.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Edit.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Theme\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Chapter\Index.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Chapter\Add.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\refint\E-Learning.Admin.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\bin\Debug\net5.0\ref\E-Learning.Admin.dll

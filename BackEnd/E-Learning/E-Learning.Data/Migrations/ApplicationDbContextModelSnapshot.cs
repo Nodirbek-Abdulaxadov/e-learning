@@ -47,7 +47,7 @@ namespace E_Learning.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("ThemeId")
+                    b.Property<Guid>("SectionId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("VideoLink")
@@ -55,19 +55,16 @@ namespace E_Learning.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ThemeId");
-
                     b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("E_Learning.Domain.FileModel", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+                        .HasColumnType("uuid");
 
-                    b.Property<Guid>("CourseId")
+                    b.Property<Guid?>("CourseId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("FileLink")
@@ -81,6 +78,9 @@ namespace E_Learning.Data.Migrations
 
                     b.Property<string>("FileType")
                         .HasColumnType("text");
+
+                    b.Property<Guid>("KursId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
@@ -104,53 +104,35 @@ namespace E_Learning.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ChapterId");
+
                     b.ToTable("Sections");
-                });
-
-            modelBuilder.Entity("E_Learning.Domain.Theme", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<Guid>("SectionId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Themes");
-                });
-
-            modelBuilder.Entity("E_Learning.Domain.Course", b =>
-                {
-                    b.HasOne("E_Learning.Domain.Theme", null)
-                        .WithMany("Courses")
-                        .HasForeignKey("ThemeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("E_Learning.Domain.FileModel", b =>
                 {
                     b.HasOne("E_Learning.Domain.Course", null)
                         .WithMany("Sources")
-                        .HasForeignKey("CourseId")
+                        .HasForeignKey("CourseId");
+                });
+
+            modelBuilder.Entity("E_Learning.Domain.Section", b =>
+                {
+                    b.HasOne("E_Learning.Domain.Chapter", null)
+                        .WithMany("Sections")
+                        .HasForeignKey("ChapterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("E_Learning.Domain.Chapter", b =>
+                {
+                    b.Navigation("Sections");
                 });
 
             modelBuilder.Entity("E_Learning.Domain.Course", b =>
                 {
                     b.Navigation("Sources");
-                });
-
-            modelBuilder.Entity("E_Learning.Domain.Theme", b =>
-                {
-                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }

@@ -17,10 +17,10 @@
         </div> 
         
         <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
-            <label asp-for="Course.ThemeId">Chapter for</label>
-            <select asp-for="Course.ThemeId" class="form-control">
+            <label asp-for="Course.SectionId">Chapter for</label>
+            <select asp-for="Course.SectionId" class="form-control">
                 <option selected disabled>-- Select theme --</option>
-                @foreach (var item in Model.Themes)
+                @foreach (var item in Model.Sections)
                {
                    <option value="@item.Id">@item.Name</option>
                }

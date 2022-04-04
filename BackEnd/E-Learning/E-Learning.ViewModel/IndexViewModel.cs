@@ -9,6 +9,8 @@ namespace E_Learning.ViewModel
 {
     public class IndexViewModel
     {
+        public Course Course { get; set; }
+        public List<Course> Courses { get; set; }
         public List<Chapter> Chapters { get; set; }
     }
 }

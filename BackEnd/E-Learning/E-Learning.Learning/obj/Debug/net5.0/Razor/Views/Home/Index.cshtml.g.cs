@@ -33,8 +33,15 @@ using E_Learning.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\_ViewImports.cshtml"
+using E_Learning.Domain;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9be27c24e435cb28325dd1ddbbc832a3c971f058", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd818100a98eab837098e6ddb345c153835720d2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35c6cb9f0aa130c84c986f9c5f0f9146d72fd4a0", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +81,7 @@ using E_Learning.ViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n<div>\r\n    <div class=\"card p-4\">\r\n        <div class=\"card-body\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9be27c24e435cb28325dd1ddbbc832a3c971f0584899", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9be27c24e435cb28325dd1ddbbc832a3c971f0585088", async() => {
                 WriteLiteral("\r\n                <i class=\'bx bx-arrow-back\' style=\"font-size: 14px;\"></i> Orqaga qaytish\r\n            ");
             }
             );

@@ -28,7 +28,7 @@ namespace E_Learning.BL.Repositories
             Task.FromResult(_dbContext.Courses.FirstOrDefault(c => c.Id == id));
 
         public Task<List<Course>> GetCourses(Guid themeId) =>
-            Task.FromResult(_dbContext.Courses.Where(c => c.ThemeId == themeId).ToList());
+            Task.FromResult(_dbContext.Courses.Where(c => c.SectionId == themeId).ToList());
 
         public Task<List<Course>> GetCourses() =>
             Task.FromResult(_dbContext.Courses.ToList());

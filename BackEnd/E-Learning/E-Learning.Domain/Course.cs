@@ -6,6 +6,10 @@ namespace E_Learning.Domain
 {
     public class Course
     {
+        public Course()
+        {
+            Sources = new List<FileModel>();
+        }
         [Key]
         [Required]
         public Guid Id { get; set; }
@@ -15,6 +19,6 @@ namespace E_Learning.Domain
         public string ContentBody { get; set; }
         public List<FileModel> Sources { get; set; }
         [Required]
-        public Guid ThemeId { get; set; }
+        public Guid SectionId { get; set; }
     }
 }

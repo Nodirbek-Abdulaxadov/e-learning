@@ -1,23 +1,25 @@
-﻿using E_Learning.BL.Interfaces;
+﻿using E_Learning.Admin.Services;
+using E_Learning.BL.Interfaces;
 using E_Learning.Domain;
 using E_Learning.ViewModel.ViewCourse;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 
 namespace E_Learning.Admin.Controllers
 {
     public class CourseController : Controller
     {
-        private readonly ICourseInterface _courseInterface;
-        private readonly IThemeInterface _themeInterface;
-        private readonly IFileInterface _fileInterface;
+        private ICourseInterface _courseInterface;
+        private readonly ISectionInterface _sectionInterface;
+        private IFileUploadInterface _fileInterface;
 
         public CourseController(ICourseInterface courseInterface,
-                                IThemeInterface themeInterface,
-                                IFileInterface fileInterface)
+                                ISectionInterface themeInterface,
+                                IFileUploadInterface fileInterface)
         {
             _courseInterface = courseInterface;
-            _themeInterface = themeInterface;
+            _sectionInterface = themeInterface;
             _fileInterface = fileInterface;
         }
         public async Task<IActionResult> Index()
@@ -31,7 +33,7 @@ namespace E_Learning.Admin.Controllers
         {
             AddCourseViewModel viewModel = new AddCourseViewModel()
             {
-                Themes = await _themeInterface.GetThemes()
+                Sections = await _sectionInterface.GetSections()
             };
 
             return View(viewModel);
@@ -39,16 +41,21 @@ namespace E_Learning.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(AddCourseViewModel viewModel)
         {
-            Course course = viewModel.Course;
+            viewModel.Course.Id = Guid.NewGuid();
             foreach (var file in viewModel.Files)
             {
-                var fileModel = await _fileInterface.AddFile(file);
-                fileModel.CourseId = course.Id;
-                course.Sources.Add(fileModel);
+                var fileModel = _fileInterface.UploadFile(file);
+                fileModel.KursId = viewModel.Course.Id;
             }
 
-            await _courseInterface.AddCourse(course);
+            await _courseInterface.AddCourse(viewModel.Course);
 
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(Guid id)
+        {
+            _courseInterface.RemoveCourse(id);
             return RedirectToAction("Index");
         }
     }
