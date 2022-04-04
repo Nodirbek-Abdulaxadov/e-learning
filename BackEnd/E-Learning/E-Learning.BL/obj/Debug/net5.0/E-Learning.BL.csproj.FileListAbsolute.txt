@@ -38,3 +38,23 @@ D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\n
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\ref\E-Learning.BL.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.pdb
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.genruntimeconfig.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.deps.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.dev.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.AssemblyReference.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.AssemblyInfoInputs.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.AssemblyInfo.cs
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CoreCompileInputs.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CopyComplete
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\refint\E-Learning.BL.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.genruntimeconfig.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\ref\E-Learning.BL.dll

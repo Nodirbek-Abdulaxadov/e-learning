@@ -27,3 +27,18 @@ D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Deb
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.deps.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.dev.json
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfoInputs.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfo.cs
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.CoreCompileInputs.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\refint\E-Learning.Domain.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
