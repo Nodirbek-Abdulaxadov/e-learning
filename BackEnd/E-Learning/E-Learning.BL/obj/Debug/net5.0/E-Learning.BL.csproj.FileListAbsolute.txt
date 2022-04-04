@@ -17,27 +17,7 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.D
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CopyComplete
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.deps.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.dev.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Data.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.Domain.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.AssemblyReference.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.GeneratedMSBuildEditorConfig.editorconfig
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.AssemblyInfoInputs.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.AssemblyInfo.cs
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CoreCompileInputs.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.csproj.CopyComplete
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\ref\E-Learning.BL.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.genruntimeconfig.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\ref\E-Learning.BL.dll
-D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\refint\E-Learning.BL.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.deps.json
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.json
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\E-Learning.BL.runtimeconfig.dev.json

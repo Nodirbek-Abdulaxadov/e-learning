@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {}
+    "D:\\davronoff\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+    "D:\\davronoff\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
+        "projectUniqueName": "D:\\davronoff\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
         "projectName": "E-Learning.Domain",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\obj\\",
+        "projectPath": "D:\\davronoff\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

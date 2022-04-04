@@ -12,22 +12,7 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learni
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.deps.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.dev.json
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfoInputs.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfo.cs
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.CoreCompileInputs.cache
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\ref\E-Learning.Domain.dll
-D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\refint\E-Learning.Domain.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.deps.json
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.json
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.runtimeconfig.dev.json
