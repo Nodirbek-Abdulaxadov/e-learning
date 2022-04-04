@@ -15,22 +15,24 @@ namespace E_Learning.ViewModel.ViewSection
         public Guid Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public Guid newChapterId { get; set; }
 
-        public static explicit operator Section(EditSectionViewModel viewModel)
-        {
-            return new Section()
-            {
-                Id = viewModel.Id,
-                Name = viewModel.Name
-            };
-        }
-
-        public static explicit operator EditSectionViewModel(Section model)
+        public static explicit operator EditSectionViewModel(Section v)
         {
             return new EditSectionViewModel()
             {
-                Id = model.Id,
-                Name = model.Name
+                Id = v.Id,
+                Name = v.Name,
+                newChapterId = v.ChapterId
+            };
+        }
+        public static explicit operator Section(EditSectionViewModel v)
+        {
+            return new Section()
+            {
+                Id = v.Id,
+                Name = v.Name,
+                ChapterId = v.newChapterId
             };
         }
     }
