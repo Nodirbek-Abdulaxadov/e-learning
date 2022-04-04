@@ -28,3 +28,18 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\ref\E
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\ref\E-Learning.ViewModel.dll
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\refint\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.deps.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\ref\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.ViewModel.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.Domain.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\E-Learning.Domain.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.AssemblyReference.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.AssemblyInfoInputs.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.AssemblyInfo.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.csproj.CopyComplete
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\ref\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.pdb
