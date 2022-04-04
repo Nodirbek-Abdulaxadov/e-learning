@@ -10,7 +10,7 @@
                     <h3>Edit Saction data</h3>
                 </div>
             </div>
-            <form asp-controller="section" asp-action="edit" enctype="multipart/form-data">
+            <form asp-controller="chapter" asp-action="edit" enctype="multipart/form-data">
                 <input type="hidden" asp-for="Id" value="@Model.Id"> 
                 <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
                     <label asp-for="Name">Name</label>
@@ -20,7 +20,7 @@
                     <button type="submit" class="btn btn-success me-5" style=" width:200px; " >
                         Save
                     </button>
-                    <a asp-controller="section" asp-action="index">
+                    <a asp-controller="chapter" asp-action="index">
                         <span class="btn btn-info"  style=" width:200px;">Cancel</span>
                     </a>
                 </div>
