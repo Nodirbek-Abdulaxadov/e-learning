@@ -31,6 +31,7 @@ namespace E_Learning.Admin
             services.AddControllersWithViews();
 
             services.AddTransient<IFileUploadInterface, FileUploadRepo>();
+            services.AddTransient<IFileInterface, FileRepo>();
             services.AddScoped<IChapterInterface, ChapterRepository>();
             services.AddScoped<ISectionInterface, SectionRepository>();
             services.AddScoped<ICourseInterface, CourseRepository>();

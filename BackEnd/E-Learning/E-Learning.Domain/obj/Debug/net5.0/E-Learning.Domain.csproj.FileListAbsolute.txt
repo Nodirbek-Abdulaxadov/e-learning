@@ -42,3 +42,4 @@ D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\re
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.pdb
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.genruntimeconfig.cache
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\ref\E-Learning.Domain.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache

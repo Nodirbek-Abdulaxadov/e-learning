@@ -63,11 +63,28 @@ namespace E_Learning.Admin.Controllers
 
             EditCourseViewModel editCourse = new EditCourseViewModel()
             {
-                course = item,
-                sections = await _sectionInterface.GetSections(),
-                Sources = await _filemodelservice.GetFiles()
+                Course = item,
+                Sections = await _sectionInterface.GetSections(),
+                Sources = _filemodelservice.GetFiles(item.Id)
             };
             return View(editCourse);
+        }
+
+        //[HttpPost]
+        //public IActionResult Edit(EditCourseViewModel viewModel)
+        //{
+        //    if (viewModel.Files.Count != 0)
+        //    {
+
+        //    }
+        //}
+
+        public IActionResult DeleteFile(Guid id)
+        {
+            var file = _filemodelservice.GetFile(id);
+            Guid courseId = file.KursId;
+            _filemodelservice.DeleteFile(file);
+            return RedirectToAction("Edit", courseId);
         }
 
         public IActionResult Delete(Guid id)
