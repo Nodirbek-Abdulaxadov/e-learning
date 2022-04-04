@@ -19,7 +19,6 @@ D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Deb
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\ref\E-Learning.Domain.dll
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\bin\Debug\net5.0\E-Learning.Domain.pdb
-D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.csproj.AssemblyReference.cache
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfoInputs.cache
 D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Domain\obj\Debug\net5.0\E-Learning.Domain.AssemblyInfo.cs

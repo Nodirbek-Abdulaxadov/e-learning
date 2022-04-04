@@ -45,12 +45,18 @@ namespace E_Learning.Admin.Controllers
         public async Task<IActionResult> Edit(Guid id)
         {
             var item = await _sectionInterface.GetSection(id);
-            return View((EditSectionViewModel)item);
+            EditSectionViewModel viewModel = new EditSectionViewModel()
+            {
+                Section = item,
+                Chapters = await _chapterInterface.GetChapters()
+            };
+
+            return View(viewModel);
         }
         [HttpPost]
         public async Task<IActionResult> Edit(EditSectionViewModel viewModel)
         {
-            await _sectionInterface.UpdateSection((Section)viewModel);
+            await _sectionInterface.UpdateSection(viewModel.Section);
             return RedirectToAction("Index");
         }
         [HttpGet]
