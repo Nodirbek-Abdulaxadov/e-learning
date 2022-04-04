@@ -10,6 +10,7 @@
                 </div>
             </div>
             <form asp-controller="section" asp-action="edit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" value="@Model.Id"> 
                 <div class="form-group mx-4" style="padding: 10px; font-size: 18px;">
                     <label asp-for="Name">Name</label>
                     <input asp-for="Name" type="text" class="form-control" id="title" value="@Model.Name">

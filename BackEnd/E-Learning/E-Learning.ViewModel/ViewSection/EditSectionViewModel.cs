@@ -15,7 +15,7 @@ namespace E_Learning.ViewModel.ViewSection
         public Guid Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public Guid newChapterId { get; set; }
+        public Chapter ChapterId { get; set; }
 
         public static explicit operator EditSectionViewModel(Section v)
         {
@@ -23,7 +23,7 @@ namespace E_Learning.ViewModel.ViewSection
             {
                 Id = v.Id,
                 Name = v.Name,
-                newChapterId = v.ChapterId
+                hapterId.Id = v.Id
             };
         }
         public static explicit operator Section(EditSectionViewModel v)
@@ -32,7 +32,7 @@ namespace E_Learning.ViewModel.ViewSection
             {
                 Id = v.Id,
                 Name = v.Name,
-                ChapterId = v.newChapterId
+                ChapterId = v.ChapterId.Id
             };
         }
     }

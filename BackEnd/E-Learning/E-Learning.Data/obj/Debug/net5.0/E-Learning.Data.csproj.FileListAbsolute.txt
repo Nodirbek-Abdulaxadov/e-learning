@@ -19,7 +19,6 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Le
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Data.runtimeconfig.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Data.runtimeconfig.dev.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Data.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\ref\E-Learning.Data.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Data.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Domain.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\E-Learning.Domain.pdb
@@ -34,3 +33,4 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\obj\Debug\net5.0\ref\
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\obj\Debug\net5.0\E-Learning.Data.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Data\obj\Debug\net5.0\E-Learning.Data.genruntimeconfig.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Data\bin\Debug\net5.0\ref\E-Learning.Data.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Data\obj\Debug\net5.0\refint\E-Learning.Data.dll
