@@ -10,7 +10,7 @@
                     <div class="d-flex justify-content-between mt-3 mx-4 com-header">
                         <h3>Section</h3>
                         <a asp-controller="chapter" asp-action="add">
-                            <span class="btn btn-success"><i class="las la-plus"></i>Add Section</span>
+                            <span class="btn btn-success"><i class="las la-plus"></i>Add Chapter</span>
                         </a>
                     </div>
                 </div>
@@ -28,11 +28,11 @@
                             @*Action Button*@ 
 
                             <td class="cell">
-                                <a asp-controller="section" asp-action="edit" asp-route-id="@item.Id">
+                                <a asp-controller="chapter" asp-action="edit" asp-route-id="@item.Id">
                                     <span class="btn btn-success">Edit</span>
                                 </a>
-                                 <a asp-controller="section" asp-action="delete" asp-route-id="@item.Id"
-                                    onclick="return confirm('Rostdan ham o\'chirmoqchisiz?');" class="btn btn-danger">Delete
+                                 <a asp-controller="chapter" asp-action="delete" asp-route-id="@item.Id"
+                                    onclick="return confirm('Are you sure delete this?');" class="btn btn-danger">Delete
                                 </a>                      
                             </td>
                     </tr>   

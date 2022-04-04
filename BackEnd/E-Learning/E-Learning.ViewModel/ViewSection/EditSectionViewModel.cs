@@ -21,9 +21,9 @@ namespace E_Learning.ViewModel.ViewSection
         {
             return new EditSectionViewModel()
             {
-                Id = v.Id,
-                Name = v.Name,
-                hapterId.Id = v.Id
+                //Id = v.Id,
+                //Name = v.Name,
+                //ChapterId.Id = v.Id
             };
         }
         public static explicit operator Section(EditSectionViewModel v)
