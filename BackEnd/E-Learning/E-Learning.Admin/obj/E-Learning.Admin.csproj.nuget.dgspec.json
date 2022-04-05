@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj": {}
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj": {
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj",
+        "projectUniqueName": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj",
         "projectName": "E-Learning.Admin",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Admin\\obj\\",
+        "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Admin\\E-Learning.Admin.csproj",
+        "packagesPath": "C:\\Users\\Nodirbek\\.nuget\\packages\\",
+        "outputPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Admin\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nodirbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,23 +26,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj"
               },
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj"
               },
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
               },
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj"
               }
             }
           }
@@ -80,17 +85,21 @@
         }
       }
     },
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj": {
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj",
+        "projectUniqueName": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj",
         "projectName": "E-Learning.BL",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.BL\\obj\\",
+        "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\E-Learning.BL.csproj",
+        "packagesPath": "C:\\Users\\Nodirbek\\.nuget\\packages\\",
+        "outputPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.BL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nodirbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,17 +107,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj"
               },
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
               }
             }
           }
@@ -175,17 +185,21 @@
         }
       }
     },
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj",
+        "projectUniqueName": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj",
         "projectName": "E-Learning.Data",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Data\\obj\\",
+        "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\E-Learning.Data.csproj",
+        "packagesPath": "C:\\Users\\Nodirbek\\.nuget\\packages\\",
+        "outputPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nodirbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,14 +207,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
               }
             }
           }
@@ -255,17 +270,21 @@
         }
       }
     },
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
+        "projectUniqueName": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
         "projectName": "E-Learning.Domain",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\obj\\",
+        "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nodirbek\\.nuget\\packages\\",
+        "outputPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nodirbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -273,6 +292,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -331,17 +351,21 @@
         }
       }
     },
-    "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj": {
+    "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj",
+        "projectUniqueName": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj",
         "projectName": "E-Learning.ViewModel",
-        "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj",
-        "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\obj\\",
+        "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\E-Learning.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Nodirbek\\.nuget\\packages\\",
+        "outputPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nodirbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -349,14 +373,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio Project\\E-learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
+              "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj": {
+                "projectPath": "E:\\OWN\\E-Learning\\BackEnd\\E-Learning\\E-Learning.Domain\\E-Learning.Domain.csproj"
               }
             }
           }
