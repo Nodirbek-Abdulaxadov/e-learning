@@ -10,28 +10,7 @@ namespace E_Learning.ViewModel.ViewSection
 {
     public class EditSectionViewModel
     {
-        [Key]
-        [Required]
-        public Guid Id { get; set; }
-        [Required]
-        public string Name { get; set; }
-
-        public static explicit operator Section(EditSectionViewModel viewModel)
-        {
-            return new Section()
-            {
-                Id = viewModel.Id,
-                Name = viewModel.Name
-            };
-        }
-
-        public static explicit operator EditSectionViewModel(Section model)
-        {
-            return new EditSectionViewModel()
-            {
-                Id = model.Id,
-                Name = model.Name
-            };
-        }
+        public Section Section { get; set; }
+        public List<Chapter> Chapters { get; set; }
     }
 }

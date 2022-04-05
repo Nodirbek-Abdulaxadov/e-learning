@@ -13,14 +13,18 @@ namespace E_Learning.Admin.Controllers
         private ICourseInterface _courseInterface;
         private readonly ISectionInterface _sectionInterface;
         private IFileUploadInterface _fileInterface;
+        private readonly IFileInterface _filemodelservice;
 
         public CourseController(ICourseInterface courseInterface,
                                 ISectionInterface themeInterface,
-                                IFileUploadInterface fileInterface)
+                                IFileUploadInterface fileInterface,
+                                IFileInterface filemodelservice
+                                )
         {
             _courseInterface = courseInterface;
             _sectionInterface = themeInterface;
             _fileInterface = fileInterface;
+            _filemodelservice = filemodelservice;
         }
         public async Task<IActionResult> Index()
         {
@@ -51,6 +55,36 @@ namespace E_Learning.Admin.Controllers
             await _courseInterface.AddCourse(viewModel.Course);
 
             return RedirectToAction("Index");
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            var item = await _courseInterface.GetCourse(id);
+
+            EditCourseViewModel editCourse = new EditCourseViewModel()
+            {
+                Course = item,
+                Sections = await _sectionInterface.GetSections(),
+                Sources = _filemodelservice.GetFiles(item.Id)
+            };
+            return View(editCourse);
+        }
+
+        //[HttpPost]
+        //public IActionResult Edit(EditCourseViewModel viewModel)
+        //{
+        //    if (viewModel.Files.Count != 0)
+        //    {
+
+        //    }
+        //}
+
+        public IActionResult DeleteFile(Guid id)
+        {
+            var file = _filemodelservice.GetFile(id);
+            Guid courseId = file.KursId;
+            _filemodelservice.DeleteFile(file);
+            return RedirectToAction("Edit", courseId);
         }
 
         public IActionResult Delete(Guid id)

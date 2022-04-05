@@ -62,7 +62,6 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.dev.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.dll
-D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\ref\E-Learning.Learning.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.pdb
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.dll
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.pdb
@@ -114,3 +113,65 @@ D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.genruntimeconfig.cache
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.dll
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.pdb
+D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\refint\E-Learning.Learning.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\appsettings.Development.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\appsettings.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.exe
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.deps.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.dev.json
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\ref\E-Learning.Learning.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Humanizer.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Npgsql.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Data.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Domain.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Data.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Domain.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.ViewModel.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.csproj.AssemblyReference.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.AssemblyInfoInputs.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.AssemblyInfo.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorAssemblyInfo.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorAssemblyInfo.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\scopedcss\bundle\E-Learning.Learning.styles.css
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\staticwebassets\E-Learning.Learning.StaticWebAssets.Manifest.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.TagHelpers.input.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.TagHelpers.output.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorCoreGenerate.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Courses.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Themes.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorTargetAssemblyInfo.cache
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.RazorTargetAssemblyInfo.cs
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.Views.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.csproj.CopyComplete
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\ref\E-Learning.Learning.dll
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.pdb
+D:\Visual Studio Project\E-learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\E-Learning.Learning.genruntimeconfig.cache

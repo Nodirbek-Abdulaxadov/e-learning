@@ -18,6 +18,14 @@ namespace E_Learning.BL.Repositories
             _dbContext = dbContext;
         }
 
+        public void DeleteFile(FileModel file)
+        {
+            _dbContext.Remove(file);
+        }
+
+        public FileModel GetFile(Guid id) =>
+            _dbContext.Files.FirstOrDefault(f => f.Id == id);
+
         public List<FileModel> GetFiles(Guid courseId) =>
             _dbContext.Files.Where(file => file.KursId == courseId).ToList();
     }
