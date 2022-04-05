@@ -1,10 +1,12 @@
 ﻿using E_Learning.BL.Interfaces;
+using E_Learning.Domain;
 using E_Learning.Learning.Models;
 using E_Learning.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace E_Learning.Learning.Controllers
@@ -26,14 +28,13 @@ namespace E_Learning.Learning.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string courseName)
         {
-            IndexViewModel viewModel = new IndexViewModel()
-            {
-                Chapters = await _chapterInterFace.GetChaptersWithSections()
-            };
+            var coursesList = await _courseInterface.GetCourses();
+            var course = coursesList.FirstOrDefault(c => c.Name == courseName)
+                ?? coursesList[0];
 
-            return View(viewModel);
+            return RedirectToAction("Themes", course.Id);
         }
         public async Task<IActionResult> Courses(Guid id)
         {
@@ -49,11 +50,11 @@ namespace E_Learning.Learning.Controllers
         }
         public async Task<IActionResult> Themes(Guid id)
         {
-            var listOfThemes = await _courseInterface.GetCourses(id);
+            var Theme = await _courseInterface.GetCourses(id);
             IndexViewModel viewModel = new IndexViewModel()
             {
                 Chapters = await _chapterInterFace.GetChaptersWithSections(),
-                Courses = listOfThemes
+                Courses = Theme
             };
             return View(viewModel);
         }
