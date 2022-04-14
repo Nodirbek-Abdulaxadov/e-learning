@@ -189,3 +189,4 @@ D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\E-L
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\refint\E-Learning.Admin.dll
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\E-Learning.Admin.genruntimeconfig.cache
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\ref\E-Learning.Admin.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Admin\obj\Debug\net5.0\Razor\Views\Chapter\Edit.cshtml.g.cs

@@ -2,6 +2,7 @@
 using E_Learning.Domain;
 using E_Learning.Learning.Models;
 using E_Learning.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,25 +17,29 @@ namespace E_Learning.Learning.Controllers
         private readonly IChapterInterface _chapterInterFace;
         private readonly ICourseInterface _courseInterface;
         private readonly IFileInterface _fileInterface;
+        private readonly ISectionInterface _sectionInterface;
 
         public HomeController(  ILogger<HomeController> logger,
                                 IChapterInterface chapterInterFace,
                                 ICourseInterface courseInterface,
-                                IFileInterface fileInterface)
+                                IFileInterface fileInterface,
+                                ISectionInterface sectionInterface)
         {
             _chapterInterFace = chapterInterFace;
             _courseInterface = courseInterface;
             _fileInterface = fileInterface;
+            _sectionInterface = sectionInterface;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Index(string courseName)
         {
-            var coursesList = await _courseInterface.GetCourses();
-            var course = coursesList.FirstOrDefault(c => c.Name == courseName)
-                ?? coursesList[0];
-
-            return RedirectToAction("Themes", course.Id);
+            IndexViewModel viewModel = new IndexViewModel()
+            {
+                Chapters = await _chapterInterFace.GetChaptersWithSections()
+            };
+            return View(viewModel);
         }
         public async Task<IActionResult> Courses(Guid id)
         {
@@ -48,15 +53,25 @@ namespace E_Learning.Learning.Controllers
             };
             return View(viewModel);
         }
-        public async Task<IActionResult> Themes(Guid id)
+        public async Task<IActionResult> Themes(string courseName)
         {
-            var Theme = await _courseInterface.GetCourses(id);
+            var section = _sectionInterface.GetSections().Result.FirstOrDefault(s => s.Name == courseName);
+            var theme = await _courseInterface.GetCourses(section.Id);
             IndexViewModel viewModel = new IndexViewModel()
             {
-                Chapters = await _chapterInterFace.GetChaptersWithSections(),
-                Courses = Theme
+                Courses = theme
             };
             return View(viewModel);
+        }
+
+        public async Task<IActionResult> Themes2(Guid id)
+        {
+            var theme = await _courseInterface.GetCourses(id);
+            IndexViewModel viewModel = new IndexViewModel()
+            {
+                Courses = theme
+            };
+            return View("Themes", viewModel);
         }
     }
 }

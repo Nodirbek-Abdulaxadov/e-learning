@@ -1,4 +1,8 @@
-﻿@model IndexViewModel
+﻿@using Microsoft.AspNetCore.Identity
+@using E_Learning.Learning.Areas.Identity.Data
+
+@inject SignInManager<E_LearningLearningUser> SignInManager
+@inject UserManager<E_LearningLearningUser> UserManager
 
 <!DOCTYPE html>
 <html lang="en">
@@ -123,33 +127,126 @@
             </li>
 
             <!-- Kerakli qism -->
-            @foreach (var chapter in Model.Chapters)
-           {
+           
                <li class="menu-item">
                   <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                    <div>@chapter.Name</div>
+                    <i class="menu-icon tf-icons bx bxl-windows"></i>
+                    <div>IT savodxonlik</div>
                   </a>
-                  <ul class="menu-sub">
-                   @if (chapter.Sections is not null)
-                    {
-                            @foreach (var item in chapter.Sections)
-                            {
-                                <li class="menu-item">
-                                    <a asp-controller="home" asp-action="themes" asp-route-id="@item.Id" class="menu-link">
-                                    <div>@item.Name</div>
-                                    </a>
-                                </li>
-                            }
-                    }
-                    else
-                    {
-                         <li class="text-secondary menu-item">There is no any sections yet!</li>       
-                    }
-
+                  <ul class="menu-sub">                   
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Kompyuter" class="menu-link">
+                            <div>Kompyuter</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Microsoft Word" class="menu-link">
+                            <div>Microsoft Word</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Microsoft Word" class="menu-link">
+                            <div>Microsoft Word</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Microsoft PowerPoint" class="menu-link">
+                            <div>Microsoft PowerPoint</div>
+                        </a>
+                    </li>
                   </ul>
-                </li>
-           }
+               </li>
+
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                    <i class="menu-icon tf-icons bx bxl-android"></i>
+                    <div>Dasturlash asoslari</div>
+                  </a>
+                  <ul class="menu-sub">                   
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Skratch" class="menu-link">
+                            <div>Skratch</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Python" class="menu-link">
+                            <div>Python</div>
+                        </a>
+                    </li>
+                  </ul>
+               </li>
+
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                    <i class="menu-icon tf-icons bx bx-world"></i>
+                    <div>Web dizayn</div>
+                  </a>
+                  <ul class="menu-sub">                   
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Skratch" class="menu-link">
+                            <div>HTML</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Python" class="menu-link">
+                            <div>CSS</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Python" class="menu-link">
+                            <div>JavaScript</div>
+                        </a>
+                    </li>
+                  </ul>
+               </li>
+
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                    <i class="menu-icon tf-icons bx bxl-sketch"></i>
+                    <div>Grafik dizayn</div>
+                  </a>
+                  <ul class="menu-sub">                   
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Photoshop" class="menu-link">
+                            <div>Photoshop</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Canva" class="menu-link">
+                            <div>Canva</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Figma" class="menu-link">
+                            <div>Figma</div>
+                        </a>
+                    </li>
+                  </ul>
+               </li>
+
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                    <i class="menu-icon tf-icons bx bxs-blanket"></i>
+                    <div>O'qitish metodlari</div>
+                  </a>
+                  <ul class="menu-sub">                   
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Photoshop" class="menu-link">
+                            <div>Photoshop</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Canva" class="menu-link">
+                            <div>Canva</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-controller="home" asp-action="themes" asp-route-courseName="Figma" class="menu-link">
+                            <div>Figma</div>
+                        </a>
+                    </li>
+                  </ul>
+               </li>
             <!-- /Kerakli qism -->
 
           </ul>
@@ -202,7 +299,7 @@
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item">
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
@@ -210,8 +307,8 @@
                             </div>
                           </div>
                           <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">John Doe</span>
-                            <small class="text-muted">Admin</small>
+                            <span class="fw-semibold d-block">@UserManager.GetUserAsync(User).Result.FirstName !</span>
+                            <small class="text-muted">@UserManager.GetUserName(User)!</small>
                           </div>
                         </div>
                       </a>
@@ -220,25 +317,18 @@
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">
                         <i class="bx bx-user me-2"></i>
                         <span class="align-middle">My Profile</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <i class="bx bx-cog me-2"></i>
-                        <span class="align-middle">Settings</span>
                       </a>
                     </li>
                     <li>
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
-                        <i class="bx bx-power-off me-2"></i>
-                        <span class="align-middle">Log Out</span>
-                      </a>
+                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <span class="align-middle"><button id="logout" type="submit" class="nav-link btn btn-link text-dark"><i class="bx bx-power-off me-2"></i> Log out</button></span>                            
+                        </form>
                     </li>
                   </ul>
                 </li>

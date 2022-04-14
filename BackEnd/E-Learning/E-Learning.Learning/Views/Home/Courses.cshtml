@@ -7,10 +7,10 @@
     <div class="p-4">
         <div class="card-body">
             <div class="d-flex justify-content-between">
-                <a asp-controller="home" asp-action="index" class="btn btn-outline-primary" style="font-size: 14px; padding: 1rem 1.5rem 0rem 1.5rem;">
+                <a asp-controller="home" asp-action="themes2" asp-route-id="@Model.Course.SectionId" class="btn btn-outline-primary" style="font-size: 14px;  height: 50px; width: 180px; padding: 0.8rem 1.5rem 0rem 1.5rem;">
                 <i class='bx bx-arrow-back' style="font-size: 14px;"></i> Orqaga</a>
-            <h2 style="text-align: center;">@Model.Course.Name</h2>
-            <div></div>
+                <h2 style="text-align: center;">@Model.Course.Name</h2>
+                <div></div>
             </div>
             <hr class="line-clamp-3"/>
 
@@ -20,8 +20,9 @@
 
             <div class="card shadow-sm my-3">
                 <div class="card-body">
-                      <p class="card-text p-3">
-                          @Model.Course.ContentBody
+                    <h3>Batafsil</h3>
+                    <p class="card-text p-3" style="white-space: pre-line">
+                          @Model.Course.ContentBody;
                     </p>
                 </div>
             </div>
