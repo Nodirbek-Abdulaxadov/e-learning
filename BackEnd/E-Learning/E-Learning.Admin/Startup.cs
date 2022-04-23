@@ -1,4 +1,3 @@
-using E_Learning.Admin.Services;
 using E_Learning.BL.Interfaces;
 using E_Learning.BL.Repositories;
 using E_Learning.Data;
@@ -30,8 +29,6 @@ namespace E_Learning.Admin
         {
             services.AddControllersWithViews();
 
-            services.AddTransient<IFileUploadInterface, FileUploadRepo>();
-            services.AddTransient<IFileInterface, FileRepo>();
             services.AddScoped<IChapterInterface, ChapterRepository>();
             services.AddScoped<ISectionInterface, SectionRepository>();
             services.AddScoped<ICourseInterface, CourseRepository>();

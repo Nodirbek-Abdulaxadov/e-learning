@@ -6,13 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\uploads\**" />
-    <Content Remove="wwwroot\uploads\**" />
-    <EmbeddedResource Remove="wwwroot\uploads\**" />
-    <None Remove="wwwroot\uploads\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
@@ -34,6 +27,13 @@
     <ProjectReference Include="..\E-Learning.Data\E-Learning.Data.csproj" />
     <ProjectReference Include="..\E-Learning.Domain\E-Learning.Domain.csproj" />
     <ProjectReference Include="..\E-Learning.ViewModel\E-Learning.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

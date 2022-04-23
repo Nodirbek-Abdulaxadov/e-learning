@@ -13,7 +13,6 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Lear
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.runtimeconfig.dev.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.dll
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\ref\E-Learning.Learning.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.Views.pdb
@@ -54,7 +53,6 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\System
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.dll
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.BL.pdb
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Courses.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Themes.cshtml.g.cs
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\appsettings.Development.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\appsettings.json
 D:\davronoff\e-learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\E-Learning.Learning.exe
@@ -296,3 +294,9 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Themes.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Home\Chapter.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\bundleconfig.json
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_Layout2.cshtml.g.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\refint\E-Learning.Learning.dll

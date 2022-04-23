@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Theme Page";
 }
-
 @model IndexViewModel
 
 <div style="margin-top: -3rem;">
@@ -9,16 +8,16 @@
         <div class="card-body mx-3">
             
             <div class="row">
-               @foreach (var item in Model.Courses)
-              {
-                <div class="col-md-6 p-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <a asp-controller="home" asp-action="courses" asp-route-id="@item.Id">@item.Name</a>
+                @foreach (var item in Model.Courses)
+               {
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="~/Pages/@item.PageLink">@item.Name</a>
+                            </div>
                         </div>
                     </div>
-                </div>  
-              }              
+               }
             </div>        
         </div>
     </div>

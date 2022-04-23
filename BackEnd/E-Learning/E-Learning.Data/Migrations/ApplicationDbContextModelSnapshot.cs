@@ -40,53 +40,19 @@ namespace E_Learning.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("ContentBody")
-                        .HasColumnType("text");
-
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PageLink")
                         .HasColumnType("text");
 
                     b.Property<Guid>("SectionId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("VideoLink")
-                        .HasColumnType("text");
-
                     b.HasKey("Id");
 
                     b.ToTable("Courses");
-                });
-
-            modelBuilder.Entity("E_Learning.Domain.FileModel", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("CourseId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("FileLink")
-                        .HasColumnType("text");
-
-                    b.Property<string>("FileName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("FileSize")
-                        .HasColumnType("text");
-
-                    b.Property<string>("FileType")
-                        .HasColumnType("text");
-
-                    b.Property<Guid>("KursId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.ToTable("Files");
                 });
 
             modelBuilder.Entity("E_Learning.Domain.Section", b =>
@@ -109,13 +75,6 @@ namespace E_Learning.Data.Migrations
                     b.ToTable("Sections");
                 });
 
-            modelBuilder.Entity("E_Learning.Domain.FileModel", b =>
-                {
-                    b.HasOne("E_Learning.Domain.Course", null)
-                        .WithMany("Sources")
-                        .HasForeignKey("CourseId");
-                });
-
             modelBuilder.Entity("E_Learning.Domain.Section", b =>
                 {
                     b.HasOne("E_Learning.Domain.Chapter", null)
@@ -128,11 +87,6 @@ namespace E_Learning.Data.Migrations
             modelBuilder.Entity("E_Learning.Domain.Chapter", b =>
                 {
                     b.Navigation("Sections");
-                });
-
-            modelBuilder.Entity("E_Learning.Domain.Course", b =>
-                {
-                    b.Navigation("Sources");
                 });
 #pragma warning restore 612, 618
         }

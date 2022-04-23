@@ -13,7 +13,5 @@ namespace E_Learning.ViewModel.ViewCourse
     {
         public Course Course { get; set; }
         public List<Section> Sections { get; set; }
-        public List<IFormFile> Files { get; set; }
-        public List<FileModel> Sources { get; set; }
     }
 }

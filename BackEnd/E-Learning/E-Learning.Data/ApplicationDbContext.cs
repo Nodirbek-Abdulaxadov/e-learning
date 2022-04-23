@@ -18,6 +18,5 @@ namespace E_Learning.Data
         public DbSet<Chapter> Chapters { get; set; }
         public DbSet<Section> Sections { get; set; }
         public DbSet<Course> Courses { get; set; }
-        public DbSet<FileModel> Files { get; set; }
     }
 }

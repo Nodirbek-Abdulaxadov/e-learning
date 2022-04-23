@@ -11,6 +11,6 @@ namespace E_Learning.ViewModel
     {
         public Course Course { get; set; }
         public List<Course> Courses { get; set; }
-        public List<Chapter> Chapters { get; set; }
+        public Chapter Chapter { get; set; }
     }
 }

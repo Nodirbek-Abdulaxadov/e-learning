@@ -21,20 +21,13 @@ using E_Learning.Learning;
 #nullable disable
 #nullable restore
 #line 2 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\_ViewImports.cshtml"
-using E_Learning.Learning.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\_ViewImports.cshtml"
 using E_Learning.ViewModel;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\_ViewImports.cshtml"
+#line 3 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\_ViewImports.cshtml"
 using E_Learning.Domain;
 
 #line default
@@ -55,7 +48,7 @@ using E_Learning.Learning.Areas.Identity.Data;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3aa8d28cf1d3bb35360bd03595ef4313e1394564", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35c6cb9f0aa130c84c986f9c5f0f9146d72fd4a0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2076f24ad3f96ce7096c49ff78c747174fc0b112", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("manage"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -107,7 +100,7 @@ using E_Learning.Learning.Areas.Identity.Data;
 #line hidden
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e13945648549", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e13945648351", async() => {
                 WriteLiteral("Hello ");
 #nullable restore
 #line 11 "E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\Views\Shared\_LoginPartial.cshtml"
@@ -136,7 +129,7 @@ using E_Learning.Learning.Areas.Identity.Data;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456410569", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456410371", async() => {
                 WriteLiteral("\r\n            <button id=\"logout\" type=\"submit\" class=\"nav-link btn btn-link text-dark\">Logout</button>\r\n        ");
             }
             );
@@ -183,7 +176,7 @@ else
 #line hidden
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456413880", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456413682", async() => {
                 WriteLiteral("Register");
             }
             );
@@ -203,7 +196,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456415454", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3aa8d28cf1d3bb35360bd03595ef4313e139456415256", async() => {
                 WriteLiteral("Login");
             }
             );

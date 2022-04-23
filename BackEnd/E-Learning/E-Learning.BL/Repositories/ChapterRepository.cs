@@ -26,7 +26,9 @@ namespace E_Learning.BL.Repositories
         }
 
         public Task<Chapter> GetChapter(Guid id) =>
-            Task.FromResult(_dbContext.Chapters.FirstOrDefault(Chapter => Chapter.Id == id));
+            Task.FromResult(_dbContext.Chapters
+                .Include(s => s.Sections)
+                .FirstOrDefault(Chapter => Chapter.Id == id));
 
         public Task<List<Chapter>> GetChapters() =>
             Task.FromResult(_dbContext.Chapters.ToList());

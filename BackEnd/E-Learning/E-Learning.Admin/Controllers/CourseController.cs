@@ -1,6 +1,4 @@
-﻿using E_Learning.Admin.Services;
-using E_Learning.BL.Interfaces;
-using E_Learning.Domain;
+﻿using E_Learning.BL.Interfaces;
 using E_Learning.ViewModel.ViewCourse;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,19 +10,13 @@ namespace E_Learning.Admin.Controllers
     {
         private ICourseInterface _courseInterface;
         private readonly ISectionInterface _sectionInterface;
-        private IFileUploadInterface _fileInterface;
-        private readonly IFileInterface _filemodelservice;
 
         public CourseController(ICourseInterface courseInterface,
-                                ISectionInterface themeInterface,
-                                IFileUploadInterface fileInterface,
-                                IFileInterface filemodelservice
+                                ISectionInterface themeInterface
                                 )
         {
             _courseInterface = courseInterface;
             _sectionInterface = themeInterface;
-            _fileInterface = fileInterface;
-            _filemodelservice = filemodelservice;
         }
         public async Task<IActionResult> Index()
         {
@@ -46,11 +38,6 @@ namespace E_Learning.Admin.Controllers
         public async Task<IActionResult> Add(AddCourseViewModel viewModel)
         {
             viewModel.Course.Id = Guid.NewGuid();
-            foreach (var file in viewModel.Files)
-            {
-                var fileModel = _fileInterface.UploadFile(file);
-                fileModel.KursId = viewModel.Course.Id;
-            }
 
             await _courseInterface.AddCourse(viewModel.Course);
 
@@ -64,8 +51,7 @@ namespace E_Learning.Admin.Controllers
             EditCourseViewModel editCourse = new EditCourseViewModel()
             {
                 Course = item,
-                Sections = await _sectionInterface.GetSections(),
-                Sources = _filemodelservice.GetFiles(item.Id)
+                Sections = await _sectionInterface.GetSections()
             };
             return View(editCourse);
         }
@@ -78,15 +64,6 @@ namespace E_Learning.Admin.Controllers
 
         //    }
         //}
-
-        public IActionResult DeleteFile(Guid id)
-        {
-            var file = _filemodelservice.GetFile(id);
-            Guid courseId = file.KursId;
-            _filemodelservice.DeleteFile(file);
-            return RedirectToAction("Edit", courseId);
-        }
-
         public IActionResult Delete(Guid id)
         {
             _courseInterface.RemoveCourse(id);
