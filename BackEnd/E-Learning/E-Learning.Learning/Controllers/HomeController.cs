@@ -39,7 +39,7 @@ namespace E_Learning.Learning.Controllers
             };
             return View(viewModel);
         }
-
+        [Authorize]
         public IActionResult Index()
         {
             return View();

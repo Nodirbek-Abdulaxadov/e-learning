@@ -42,4 +42,4 @@ D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\refint\E-Learning.ViewModel.dll
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\E-Learning.ViewModel.pdb
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\ref\E-Learning.ViewModel.dll
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Debug\net5.0\refint\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Debug\net5.0\ref\E-Learning.ViewModel.dll

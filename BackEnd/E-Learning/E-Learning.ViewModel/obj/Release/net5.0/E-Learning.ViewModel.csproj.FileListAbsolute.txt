@@ -1,0 +1,15 @@
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\E-Learning.ViewModel.deps.json
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\ref\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\E-Learning.ViewModel.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\E-Learning.Domain.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\bin\Release\net5.0\E-Learning.Domain.pdb
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.csproj.AssemblyReference.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.AssemblyInfoInputs.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.AssemblyInfo.cs
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.csproj.CoreCompileInputs.cache
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.csproj.CopyComplete
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\ref\E-Learning.ViewModel.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.ViewModel\obj\Release\net5.0\E-Learning.ViewModel.pdb

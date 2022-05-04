@@ -299,4 +299,4 @@ E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\bundleconfig.json
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\Razor\Views\Shared\_Layout2.cshtml.g.cs
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\obj\Debug\net5.0\refint\E-Learning.Learning.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.Learning\bin\Debug\net5.0\ref\E-Learning.Learning.dll

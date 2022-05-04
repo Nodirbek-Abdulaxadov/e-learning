@@ -57,4 +57,4 @@ D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\refint
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.pdb
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\E-Learning.BL.genruntimeconfig.cache
 D:\davronoff\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\ref\E-Learning.BL.dll
-E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\obj\Debug\net5.0\refint\E-Learning.BL.dll
+E:\OWN\E-Learning\BackEnd\E-Learning\E-Learning.BL\bin\Debug\net5.0\ref\E-Learning.BL.dll
